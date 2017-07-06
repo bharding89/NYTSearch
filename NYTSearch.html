@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Patua+One" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+  <title>NYT Search</title>
+  <div class="page-header">
+
+<center><div class="jumbotron" >
+<span class="glyphicon glyphicon-home"></span>
+  <h1 class="display-3" >New York Times Search</h1></i>
+
+</center>
+</div>
+</head>
+
+<body>
+  <div class=container id="searchCont">
+  <div class="head">Search Parameters</div>
+  <br>
+  Search Terms
+  <br>
+<div class="input-group">
+   <input type="text" class="form-control" id="term"></div>
+<br>
+Number of records to recieve
+<br>
+<div class="input-group">
+  <input type="text" class="form-control" id="recordsNumber">
+  </div>
+<br>
+Start Year (Optional)
+<br>
+<div class="input-group">
+  <input type="text" class="input-group-addon" id="startYear">
+  </div>
+<br>
+End Year (Optional)
+<br>
+<div class="input-group">
+    <input type="text" class="input-group-addon" id="endYear" >
+</div>
+<br>
+<input type="submit" class="btn btn-info" value="Search" id="buttons">
+<input class="btn btn-primary" type="reset" value="Clear Results"> 
+</div>
+
+</div>
+<br>
+<div class=container id="results">
+ <div class="head"> Top Articles</div>
+  <br>
+<div class=row id="inputResults">
+
+<br>
+
+
+<br>
+<br>
+</div>
+</div>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="app.js"></script>
+</body>
+
+</html>

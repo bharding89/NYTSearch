@@ -1,0 +1,35 @@
+.jumbotron {
+	background-color: #3741ff; 
+	color: white;
+	border-radius: 25px;
+	width: 80%;
+	font-family: 'Patua One', cursive;
+}
+
+body {
+	
+}
+#searchCont {
+width: 80% ;
+border-style: solid;
+padding: 10px;
+border-radius: 25px;
+
+
+}
+.head {
+color: white;
+background-color: #3741ff; 
+padding: 10px;
+font-family: 'Patua One', cursive;
+border-radius: 25px;
+margin: 0px;
+
+
+}
+#results {
+width: 80% ;
+border-style: solid;
+padding: 10px;
+border-radius: 25px;
+}
